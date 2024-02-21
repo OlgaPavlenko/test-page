@@ -1,2 +1,14 @@
-@import './common';
-@import './example';
+@import './components/shared/container';
+@import 'utils/variables';
+@import 'utils/placeholders';
+@import './utils/button';
+@import './utils/visually-hidden';
+@import './utils/base';
+@import './components/shared/header';
+@import './components/main/hero';
+@import './components/main/advantages';
+@import './components/main/examples';
+@import './components/main/team';
+@import './components/main/clients';
+@import './components/shared/footer';
+@import './components/main/modal';

@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
-  </head>
-  <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Studio</title>
+  <link rel="stylesheet" href="./sass/index.scss" />
+  <script type="module" src="./index.js"></script>
+</head>
+
+<body>
+  <!-- ❗️❗️❗️ Add partials like so for every page -->
+  <!-- <include src="./partials/example.html"></include> -->
+  <include src="./partials/shared/header.html"></include>
+  <main>
+    <include src="./partials/main/hero.html"></include>
+  </main>
+  <include src="./partials/shared/footer.html"></include>
+  <include src="./partials/shared/modal.html"></include>
+  <script>
+    const ref = document.querySelector("[data-modal]");
+
+    function openModal() {
+      ref.classList.remove("is-hidden");
+    }
+
+    function closeModal() {
+      ref.classList.add("is-hidden");
+    }
+  </script>
+  <!-- <script src="./js/menu.js"></script> -->
+</body>
+
 </html>
