@@ -65,6 +65,7 @@ p {
   &:focus .descr {
     opacity: 1;
   }
+  // pointer-events: none;
 }
 
 .link {
