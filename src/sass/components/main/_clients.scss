@@ -18,6 +18,12 @@
     row-gap: 30px;
     column-gap: 30px;
   }
+
+  @media screen and (min-width: 350px) and (max-width: 450px) {
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 5px;
+  }
 }
 
 .clients-item {
@@ -34,6 +40,11 @@
   &:focus {
     border-color: #2196f3;
     color: #2196f3;
+  }
+
+  @media screen and (min-width: 350px) and (max-width: 450px) {
+    min-width: 150px;
+    min-height: 80px;
   }
 }
 

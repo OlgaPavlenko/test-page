@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Studio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./sass/portfolio.scss">
+</head>
+
+<body>
+    <include src="./partials/shared/header.html"></include>
+    <main class="main-portfolio">
+        <div class="container">
+            <h1 class="visually-hidden">Portfolio</h1>
+            <ul class="filter">
+                <li class="filter-item">
+                    <button class="portfolio-btn" type="button">All</button>
+                </li>
+                <li class="filter-item">
+                    <button class="portfolio-btn" type="button">Web pages</button>
+                </li>
+                <li class="filter-item">
+                    <button class="portfolio-btn" type="button">Applications</button>
+                </li>
+                <li class="filter-item">
+                    <button class="portfolio-btn" type="button">Design</button>
+                </li>
+                <li class="filter-item">
+                    <button class="portfolio-btn" type="button">Marketing</button>
+                </li>
+            </ul>
+
+            <ul class="portfolio-list">
+                <li class="portfolio-item">
+                    <a href="./index.html">
+                        <div class="link">
+                            <div class="item-overlay">
+                                <p class="descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt
+                                    ut
+                                    labore
+                                    et dolore magna
+                                    aliqua. Massa id neque aliquam vestibulum morbi. Vel pharetra vel turpis nunc.
+                                    Lectus
+                                    mauris
+                                    ultrices eros in cursus
+                                    turpis massa tincidunt dui.</p>
+                            </div>
+                            <picture>
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/mobile/work1_mobile/tethno_mobile.webp   1x,
+                                                            /src/images/jpeg/portfolio/mobile/work1_mobile/tethno_mobile@2x.webp 2x
+                                                              " type="image/webp" media="(max-width: 767px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/tablet/work1_tablet/work1_tablet.webp   1x,
+                                                            /src/images/jpeg/portfolio/tablet/work1_tablet/work1_tablet@2x.webp 2x
+                                                              " type="image/webp" media="(max-width: 1199px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/desktop/work1_desktop/work1_desktop.webp   1x,
+                                                            /src/images/jpeg/portfolio/desktop/work1_desktop/work1_desktop@2x.webp 2x
+                                                              " type="image/webp" media="(min-width: 1200px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/mobile/work1_mobile/tethno_mobile.webp   1x,
+                                                            /src/images/jpeg/portfolio/mobile/work1_mobile/tethno_mobile@2x.webp 2x
+                                                              " media="(max-width: 767px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/tablet/work1_tablet/work1_tablet.jpg   1x,
+                                                               /src/images/jpeg/portfolio/tablet/work1_tablet/work1_tablet@2x.jpg 2x
+                                                              " media="(max-width: 1199px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/desktop/work1_desktop/work1_desktop.jpg   1x,
+                                                                /src/images/jpeg/portfolio/desktop/work1_desktop/work1_desktop@2x.jpg 2x
+                                                              " media="(min-width: 1200px)" />
+
+                                <img class="project-logo"
+                                    src="/src/images/jpeg/portfolio/mobile/work1_mobile/tethno_mobile.jpg"
+                                    alt="laptop" />
+                            </picture>
+                        </div>
+                        <div className="meta">
+                            <h3 class="item-header">Tech</h3>
+                            <p class="item-descr">Web page</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-item">
+                    <a href="">
+                        <div class="link">
+                            <div class="item-overlay">
+                                <p class="descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt
+                                    ut
+                                    labore
+                                    et dolore magna
+                                    aliqua. Massa id neque aliquam vestibulum morbi. Vel pharetra vel turpis nunc.
+                                    Lectus
+                                    mauris
+                                    ultrices eros in cursus
+                                    turpis massa tincidunt dui.</p>
+                            </div>
+                            <picture>
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/mobile/work2_mobile/work2.webp   1x,
+                                                            /src/images/jpeg/portfolio/mobile/work2_mobile/work2@2x.webp 2x
+                                                              " type="image/webp" media="(max-width: 767px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/tablet/work2_tablet/work2_tablet.webp   1x,
+                                                            /src/images/jpeg/portfolio/tablet/work2_tablet/work2_tablet@2x.webp 2x
+                                                              " type="image/webp" media="(max-width: 1199px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/desktop/work2_desktop/work2_desktop.webp   1x,
+                                                            /src/images/jpeg/portfolio/desktop/work2_desktop/work2_desktop@2x.webp 2x
+                                                              " type="image/webp" media="(min-width: 1200px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/mobile/work2_mobile/work2.webp   1x,
+                                                            /src/images/jpeg/portfolio/mobile/work2_mobile/work2@2x.webp 2x
+                                                              " media="(max-width: 767px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/tablet/work2_tablet/work2_tablet.jpg   1x,
+                                                                /src/images/jpeg/portfolio/tablet/work2_tablet/work2_tablet@2x.jpg 2x
+                                                              " media="(max-width: 1199px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/desktop/work2_desktop/work2_desktop.jpg   1x,
+                                                                /src/images/jpeg/portfolio/desktop/work2_desktop/work2_desktop@2x.jpg 2x
+                                                              " media="(min-width: 1200px)" />
+
+                                <img class="project-logo" src="/src/images/jpeg/portfolio/mobile/work2_mobile/work2.jpg"
+                                    alt="bascetball" />
+                            </picture>
+                        </div>
+                        <div className="meta">
+                            <h3 class="item-header">New Orlean vs Golden Star</h3>
+                            <p class="item-descr">Design</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-item">
+                    <a href="">
+                        <div class="link">
+                            <div class="item-overlay">
+                                <p class="descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut
+                                    labore
+                                    et dolore magna
+                                    aliqua. Massa id neque aliquam vestibulum morbi. Vel pharetra vel turpis nunc.
+                                    Lectus
+                                    mauris
+                                    ultrices eros in cursus
+                                    turpis massa tincidunt dui.</p>
+                            </div>
+                            <picture>
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/mobile/work3_mobile/work3.webp   1x,
+                                                            /src/images/jpeg/portfolio/mobile/work3_mobile/work3@2x.webp 2x
+                                                              " type="image/webp" media="(max-width: 767px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/tablet/work3_tablet/work3_tablet.webp   1x,
+                                                            /src/images/jpeg/portfolio/tablet/work3_tablet/work3_tablet@2x.webp 2x
+                                                              " type="image/webp" media="(max-width: 1199px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/desktop/work3_desktop/work3_desktop.webp   1x,
+                                                            /src/images/jpeg/portfolio/desktop/work3_desktop/work3_desktop@2x.webp 2x
+                                                              " type="image/webp" media="(min-width: 1200px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/mobile/work3_mobile/work3.webp   1x,
+                                                            /src/images/jpeg/portfolio/mobile/work3_mobile/work3@2x.webp 2x
+                                                              " media="(max-width: 767px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/tablet/work3_tablet/work3_tablet.jpg   1x,
+                                                                /src/images/jpeg/portfolio/tablet/work3_tablet/work3_tablet@2x.jpg 2x
+                                                              " media="(max-width: 1199px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/desktop/work3_desktop/work3_desktop.jpg   1x,
+                                                            /src/images/jpeg/portfolio/desktop/work3_desktop/work3_desktop@2x.jpg 2x
+                                                              " media="(min-width: 1200px)" />
+
+                                <img class="project-logo" src="/src/images/jpeg/portfolio/mobile/work3_mobile/work3.jpg"
+                                    alt="seafood" />
+                            </picture>
+                        </div>
+                        <div className="meta">
+                            <h3 class="item-header">Seafood</h3>
+                            <p class="item-descr">Application</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-item">
+                    <a href="">
+                        <div class="link">
+                            <div class="item-overlay">
+                                <p class="descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut
+                                    labore
+                                    et dolore magna
+                                    aliqua. Massa id neque aliquam vestibulum morbi. Vel pharetra vel turpis nunc.
+                                    Lectus
+                                    mauris
+                                    ultrices eros in cursus
+                                    turpis massa tincidunt dui.</p>
+                            </div>
+                            <picture>
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/mobile/work4_mobile/work4.webp   1x,
+                                                            /src/images/jpeg/portfolio/mobile/work4_mobile/work4@2x.webp 2x
+                                                              " type="image/webp" media="(max-width: 767px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/tablet/work4_tablet/work4_tablet.webp   1x,
+                                                            /src/images/jpeg/portfolio/tablet/work4_tablet/work4_tablet@2x.webp 2x
+                                                              " type="image/webp" media="(max-width: 1199px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/desktop/work4_desktop/work4_desktop.webp   1x,
+                                                            /src/images/jpeg/portfolio/desktop/work4_desktop/work4_desktop@2x.webp 2x
+                                                              " type="image/webp" media="(min-width: 1200px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/mobile/work4_mobile/work4.webp   1x,
+                                                            /src/images/jpeg/portfolio/mobile/work4_mobile/work4@2x.webp 2x
+                                                              " media="(max-width: 767px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/tablet/work4_tablet/work4_tablet.jpg   1x,
+                                                                /src/images/jpeg/portfolio/tablet/work4_tablet/work4_tablet@2x.jpg 2x
+                                                              " media="(max-width: 1199px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/desktop/work4_desktop/work4_desktop.jpg   1x,
+                                                                /src/images/jpeg/portfolio/desktop/work4_desktop/work4_desktop@2x.jpg 2x
+                                                              " media="(min-width: 1200px)" />
+
+                                <img class="project-logo" src="/src/images/jpeg/portfolio/mobile/work4_mobile/work4.jpg"
+                                    alt="prime" />
+                            </picture>
+                        </div>
+                        <div className="meta">
+                            <h3 class="item-header">Prime</h3>
+                            <p class="item-descr">Marketing</p><a href="">
+                        </div>
+                    </a>
+                    </a>
+                </li>
+                <li class="portfolio-item">
+                    <a href="">
+                        <div class="link">
+                            <div class="item-overlay">
+                                <p class="descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut
+                                    labore
+                                    et dolore magna
+                                    aliqua. Massa id neque aliquam vestibulum morbi. Vel pharetra vel turpis nunc.
+                                    Lectus
+                                    mauris
+                                    ultrices eros in cursus
+                                    turpis massa tincidunt dui.</p>
+                            </div>
+                            <picture>
+                                <source srcset="
+                                /src/images/jpeg/portfolio/mobile/work5_mobile/work5.webp   1x,
+                                /src/images/jpeg/portfolio/mobile/work5_mobile/work5@2x.webp 2x
+                                  " type="image/webp" media="(max-width: 767px)" />
+                                <source srcset="
+                                /src/images/jpeg/portfolio/tablet/work5_tablet/work5_tablet.webp   1x,
+                                /src/images/jpeg/portfolio/tablet/work5_tablet/work5_tablet@2x.webp 2x
+                                  " type="image/webp" media="(max-width: 1199px)" />
+                                <source srcset="
+                                /src/images/jpeg/portfolio/desktop/work5_desktop/work5_desktop.webp   1x,
+                                /src/images/jpeg/portfolio/desktop/work5_desktop/work5_desktop@2x.webp 2x
+                                  " type="image/webp" media="(min-width: 1200px)" />
+                                <source srcset="
+                                /src/images/jpeg/portfolio/mobile/work5_mobile/work5.webp   1x,
+                                /src/images/jpeg/portfolio/mobile/work5_mobile/work5@2x.webp 2x
+                                  " media="(max-width: 767px)" />
+                                <source srcset="
+                                /src/images/jpeg/portfolio/tablet/work5_tablet/work5_tablet.jpg   1x,
+                                    /src/images/jpeg/portfolio/tablet/work5_tablet/work5_tablet@2x.jpg 2x
+                                  " media="(max-width: 1199px)" />
+                                <source srcset="
+                                /src/images/jpeg/portfolio/desktop/work5_desktop/work5_desktop.jpg   1x,
+                                    /src/images/jpeg/portfolio/desktop/work5_desktop/work5_desktop@2x.jpg 2x
+                                  " media="(min-width: 1200px)" />
+
+                                <img class="project-logo" src="/src/images/jpeg/portfolio/mobile/work5_mobile/work5.jpg"
+                                    alt="boxes" />
+                            </picture>
+                        </div>
+                        <div className="meta">
+                            <h3 class="item-header">Boxes</h3>
+                            <p class="item-descr">Application</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-item">
+                    <a href="">
+                        <div class="link">
+                            <div class="item-overlay">
+                                <p class="descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut
+                                    labore
+                                    et dolore magna
+                                    aliqua. Massa id neque aliquam vestibulum morbi. Vel pharetra vel turpis nunc.
+                                    Lectus
+                                    mauris
+                                    ultrices eros in cursus
+                                    turpis massa tincidunt dui.</p>
+                            </div>
+                            <picture>
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/mobile/work6_mobile/work6.webp   1x,
+                                                            /src/images/jpeg/portfolio/mobile/work6_mobile/work6@2x.webp 2x
+                                                              " type="image/webp" media="(max-width: 767px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/tablet/work6_tablet/work6_tablet.webp   1x,
+                                                            /src/images/jpeg/portfolio/tablet/work6_tablet/work6_tablet@2x.webp 2x
+                                                              " type="image/webp" media="(max-width: 1199px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/desktop/work6_desktop/work6_desktop.webp   1x,
+                                                            /src/images/jpeg/portfolio/desktop/work6_desktop/work6_desktop@2x.webp 2x
+                                                              " type="image/webp" media="(min-width: 1200px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/mobile/work6_mobile/work6.webp   1x,
+                                                            /src/images/jpeg/portfolio/mobile/work6_mobile/work6@2x.webp 2x
+                                                              " media="(max-width: 767px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/tablet/work6_tablet/work6_tablet.jpg   1x,
+                                                                /src/images/jpeg/portfolio/tablet/work6_tablet/work6_tablet@2x.jpg 2x
+                                                              " media="(max-width: 1199px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/desktop/work6_desktop/work6_desktop.jpg   1x,
+                                                                /src/images/jpeg/portfolio/desktop/work6_desktop/work6_desktop@2x.jpg 2x
+                                                              " media="(min-width: 1200px)" />
+
+                                <img class="project-logo" src="/src/images/jpeg/portfolio/mobile/work6_mobile/work6.jpg"
+                                    alt=" Inspiration has no Borders" />
+                            </picture>
+                        </div>
+                        <div className="meta">
+                            <h3 class="item-header">Inspiration has no Borders</h3>
+                            <p class="item-descr">Web page</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-item">
+                    <a class="portfolio-link" href="./index.html">
+                        <div class="link">
+                            <div class="item-overlay">
+                                <p class="descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut
+                                    labore
+                                    et dolore magna
+                                    aliqua. Massa id neque aliquam vestibulum morbi. Vel pharetra vel turpis nunc.
+                                    Lectus
+                                    mauris
+                                    ultrices eros in cursus
+                                    turpis massa tincidunt dui.</p>
+                            </div>
+                            <picture>
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/mobile/work7_mobile/work7_mobile.webp   1x,
+                                                            /src/images/jpeg/portfolio/mobile/work7_mobile/work7_mobile@2x.webp 2x
+                                                              " type="image/webp" media="(max-width: 767px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/tablet/work7_tablet/work7_tablet.webp   1x,
+                                                            /src/images/jpeg/portfolio/tablet/work7_tablet/work7_tablet@2x.webp 2x
+                                                              " type="image/webp" media="(max-width: 1199px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/desktop/work7_desktop/work7_desktop.webp   1x,
+                                                            /src/images/jpeg/portfolio/desktop/work7_desktop/work7_desktop@2x.webp 2x
+                                                              " type="image/webp" media="(min-width: 1200px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/mobile/work7_mobile/work7_mobile.webp   1x,
+                                                            /src/images/jpeg/portfolio/mobile/work7_mobile/work7_mobile@2x.webp 2x
+                                                              " media="(max-width: 767px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/tablet/work7_tablet/work7_tablet.jpg   1x,
+                                                                /src/images/jpeg/portfolio/tablet/work7_tablet/work7_tablet@2x.jpg 2x
+                                                              " media="(max-width: 1199px)" />
+                                <source srcset="
+                                                            /src/images/jpeg/portfolio/desktop/work7_desktop/work7_desktop.jpg   1x,
+                                                                /src/images/jpeg/portfolio/desktop/work7_desktop/work7_desktop@2x.jpg 2x
+                                                              " media="(min-width: 1200px)" />
+
+                                <img class="project-logo"
+                                    src="/src/images/jpeg/portfolio/mobile/work7_mobile/work7_mobile.jpg"
+                                    alt=" Limited Edition" />
+                            </picture>
+                        </div>
+                        <div className="meta">
+                            <h3 class="item-header">Limited edition</h3>
+                            <p class="item-descr">Design</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-item">
+                    <a href="">
+                        <div class="link">
+                            <div class="item-overlay">
+                                <p class="descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut
+                                    labore
+                                    et dolore magna
+                                    aliqua. Massa id neque aliquam vestibulum morbi. Vel pharetra vel turpis nunc.
+                                    Lectus
+                                    mauris
+                                    ultrices eros in cursus
+                                    turpis massa tincidunt dui.</p>
+                            </div>
+                            <picture>
+                                <source srcset="
+                                /src/images/jpeg/portfolio/mobile/work8_mobile/work8_mobile.webp   1x,
+                                /src/images/jpeg/portfolio/mobile/work8_mobile/work8_mobile@2x.webp 2x
+                                  " type="image/webp" media="(max-width: 767px)" />
+                                <source srcset="
+                                /src/images/jpeg/portfolio/tablet/work8_tablet/work8_tablet.webp   1x,
+                                /src/images/jpeg/portfolio/tablet/work8_tablet/work8_tablet@2x.webp 2x
+                                  " type="image/webp" media="(max-width: 1199px)" />
+                                <source srcset="
+                                /src/images/jpeg/portfolio/desktop/work8_desktop/work8_desktop.webp   1x,
+                                /src/images/jpeg/portfolio/desktop/work8_desktop/work8_desktop@2x.webp 2x
+                                  " type="image/webp" media="(min-width: 1200px)" />
+                                <source srcset="
+                                /src/images/jpeg/portfolio/mobile/work8_mobile/work8_mobile.webp   1x,
+                                /src/images/jpeg/portfolio/mobile/work8_mobile/work8_mobile@2x.webp 2x
+                                  " media="(max-width: 767px)" />
+                                <source srcset="
+                                /src/images/jpeg/portfolio/tablet/work8_tablet/work8_tablet.jpg   1x,
+                                    /src/images/jpeg/portfolio/tablet/work8_tablet/work8_tablet@2x.jpg 2x
+                                  " media="(max-width: 1199px)" />
+                                <source srcset="
+                                /src/images/jpeg/portfolio/desktop/work8_desktop/work8_desktop.jpg   1x,
+                                    /src/images/jpeg/portfolio/desktop/work8_desktop/work8_desktop@2x.jpg 2x
+                                  " media="(min-width: 1200px)" />
+
+                                <img class="project-logo"
+                                    src="/src/images/jpeg/portfolio/mobile/work8_mobile/work8_mobile.jpg" alt="LAB" />
+                            </picture>
+                        </div>
+                        <div className="meta">
+                            <h3 class="item-header">Lab</h3>
+                            <p class="item-descr">Marketing</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-item">
+                    <a href="">
+                        <div class="link">
+                            <div class="item-overlay">
+                                <p class="descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut
+                                    labore
+                                    et dolore magna
+                                    aliqua. Massa id neque aliquam vestibulum morbi. Vel pharetra vel turpis nunc.
+                                    Lectus
+                                    mauris
+                                    ultrices eros in cursus
+                                    turpis massa tincidunt dui.</p>
+                            </div>
+                            <picture>
+                                <source srcset="
+                                /src/images/jpeg/portfolio/mobile/work9_mobile/work9_mobile.webp   1x,
+                                /src/images/jpeg/portfolio/mobile/work9_mobile/work9_mobile@2x.webp 2x
+                                  " type="image/webp" media="(max-width: 767px)" />
+                                <source srcset="
+                                /src/images/jpeg/portfolio/tablet/work9_tablet/work9_tablet.webp   1x,
+                                /src/images/jpeg/portfolio/tablet/work9_tablet/work9_tablet@2x.webp 2x
+                                  " type="image/webp" media="(max-width: 1199px)" />
+                                <source srcset="
+                                /src/images/jpeg/portfolio/desktop/work9_desktop/work9_desktop.webp   1x,
+                                /src/images/jpeg/portfolio/desktop/work9_desktop/work9_desktop@2x.webp 2x
+                                  " type="image/webp" media="(min-width: 1200px)" />
+                                <source srcset="
+                                /src/images/jpeg/portfolio/mobile/work9_mobile/work9_mobile.webp   1x,
+                                /src/images/jpeg/portfolio/mobile/work9_mobile/work9_mobile@2x.webp 2x
+                                  " media="(max-width: 767px)" />
+                                <source srcset="
+                                /src/images/jpeg/portfolio/tablet/work9_tablet/work9_tablet.jpg   1x,
+                                    /src/images/jpeg/portfolio/tablet/work9_tablet/work9_tablet@2x.jpg 2x
+                                  " media="(max-width: 1199px)" />
+                                <source srcset="
+                                /src/images/jpeg/portfolio/desktop/work9_desktop/work9_desktop.jpg   1x,
+                                    /src/images/jpeg/portfolio/desktop/work9_desktop/work9_desktop@2x.jpg 2x
+                                  " media="(min-width: 1200px)" />
+
+                                <img class="project-logo"
+                                    src="/src/images/jpeg/portfolio/mobile/work9_mobile/work9_mobile.jpg"
+                                    alt="Growing Business" />
+                            </picture>
+                        </div>
+                        <div className="meta">
+                            <h3 class="item-header">Growing Business</h3>
+                            <p class="item-descr">Application</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <include src="./partials/shared/footer.html"></include>
+    <script src="./index.js"></script>
+</body>
+
+</html>

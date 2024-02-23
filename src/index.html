@@ -6,15 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Web Studio</title>
   <link rel="stylesheet" href="./sass/index.scss" />
-  <script type="module" src="./index.js"></script>
+
 </head>
 
 <body>
-  <!-- ❗️❗️❗️ Add partials like so for every page -->
-  <!-- <include src="./partials/example.html"></include> -->
   <include src="./partials/shared/header.html"></include>
   <main>
     <include src="./partials/main/hero.html"></include>
+    <include src="./partials/main/advantages.html"></include>
+    <include src="./partials/main/examples.html"></include>
+    <include src="./partials/main/clients.html"></include>
   </main>
   <include src="./partials/shared/footer.html"></include>
   <include src="./partials/shared/modal.html"></include>
@@ -29,7 +30,7 @@
       ref.classList.add("is-hidden");
     }
   </script>
-  <!-- <script src="./js/menu.js"></script> -->
+  <script type="module" src="./index.js"></script>
 </body>
 
 </html>
