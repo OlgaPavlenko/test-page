@@ -21,15 +21,18 @@
   <include src="./partials/shared/footer.html"></include>
   <include src="./partials/shared/modal.html"></include>
   <script>
-    const ref = document.querySelector("[data-modal]");
+    window.addEventListener("load", (event) => {
+      const ref = document.querySelector("[data-modal]");
 
-    function openModal() {
-      ref.classList.remove("is-hidden");
-    }
+      function openModal() {
+        ref.classList.remove("is-hidden");
+      }
 
-    function closeModal() {
-      ref.classList.add("is-hidden");
-    }
+      function closeModal() {
+        ref.classList.add("is-hidden");
+      }
+    });
+
   </script>
   <script type="module" src="./index.js"></script>
 </body>
