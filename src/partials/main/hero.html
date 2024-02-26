@@ -3,8 +3,8 @@
     <a class="button" onclick="openModal()">Order a service</a>
 </section>
 <script>
+    const ref = document.querySelector('[data-modal]');
     const openModal = () => {
-        console.log(ref);
         ref.classList.remove('is-hidden');
     }
 </script>
