@@ -44,7 +44,8 @@
                 <button type="submit" class="button order">Submit</button>
             </div>
 
-            <button class="close-btn" type="button" onclick="ref.classList.add('is-hidden');">
+            <button class="close-btn" type="button" onclick="{const ref = document.querySelector('[data-modal]');
+                 ref.classList.add('is-hidden');}">
                 <svg class="" height="18" width="18">
                     <use href="./images/svg/symbol-defs-form.svg#icon-close-black"></use>
                 </svg>

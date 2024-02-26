@@ -1,10 +1,6 @@
 <section class="hero">
     <h1>Effective solutions <br> for your business</h1>
-    <a class="button" onclick="openModal()">Order a service</a>
+    <a class="button"
+        onclick="{ const ref = document.querySelector('[data-modal]');  ref.classList.remove('is-hidden');}">Order a
+        service</a>
 </section>
-<script>
-    const ref = document.querySelector('[data-modal]');
-    const openModal = () => {
-        ref.classList.remove('is-hidden');
-    }
-</script>
