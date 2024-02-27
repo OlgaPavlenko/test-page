@@ -32,6 +32,8 @@
   @media screen and (max-width: 1199px) {
     width: 450px;
     top: 55%;
+    overflow: auto;
+    max-height: 100%;
   }
 }
 
@@ -180,7 +182,11 @@
     fill: $main-accent-color;
   }
 
-  @media screen and (max-width: 1199px) {
+  @media screen and (min-width: 350px) and (max-width: 450px) {
+    right: 40px;
+  }
+
+  @media screen and (min-width: 450px) and (max-width: 1199px) {
     right: 8px;
   }
 }
